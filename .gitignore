@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Local / OS
+.DS_Store
+Thumbs.db
+
+# Data files - do not publish source or derived data
+data/
+*.csv
+*.parquet
+*.feather
+
+# Models / temporary artifacts
+*.pkl
+*.joblib
+*.log
+
+# Private working material
+private/
+working/
+temp/
